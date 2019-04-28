@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Научиться учиться</title>
-    <link rel="stylesheet" href="/styles/normalize.css">
-    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 
 <body>
@@ -46,27 +46,27 @@
                 <h3 class="section-subtitle section-subtitle_black">Пять практик от Барбары Оакли</h3>
                 <div class="cards">
                     <div class="cards__item">
-                        <img class="cards__image" alt="attention" src="/images/images_sprint-2/attention.png"> <!-- Нужно исправить: тут и далее в секции, по аналогии, картинку целесообразней делать через img (не забудьте alt)-->
+                        <img class="cards__image" alt="attention" src="./images/images_sprint-2/attention.png"> <!-- Нужно исправить: тут и далее в секции, по аналогии, картинку целесообразней делать через img (не забудьте alt)-->
                         <h3 class="cards__title">Два вида внимания</h3><!-- Можно улучшить: тут и далее в секции, по аналогии, лучше h3, тк h2 это заголовок секции -->
                         <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
                     </div>
                     <div class="cards__item">
-                        <img class="cards__image" alt="recall" src="/images/images_sprint-2/recall.png">
+                        <img class="cards__image" alt="recall" src="./images/images_sprint-2/recall.png">
                         <h2 class="cards__title">Recall</h2>
                         <p class="cards__description">Вспоминайте изученное - это позволит соединить разрозненные порции памяти.</p>
                     </div>
                     <div class="cards__item">
-                        <img class="cards__image" alt="interliving" src="/images/images_sprint-2/interliving.png">
+                        <img class="cards__image" alt="interliving" src="./images/images_sprint-2/interliving.png">
                         <h2 class="cards__title">Интерливинг</h2>
                         <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
                     </div>
                     <div class="cards__item">
-                        <img class="cards__image" alt="question" src="/images/images_sprint-2/question.png">
+                        <img class="cards__image" alt="question" src="./images/images_sprint-2/question.png">
                         <h2 class="cards__title">Вопросы</h2>
                         <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
                     </div>
                     <div class="cards__item">
-                        <img class="cards__image" alt="competence" src="/images/images_sprint-2/competence.png">
+                        <img class="cards__image" alt="competence" src="./images/images_sprint-2/competence.png">
                         <h2 class="cards__title">Иллюзия компетентности</h2>
                         <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
                     </div>
@@ -154,7 +154,7 @@
                     <p class="khan__quote-author">Джордж Лукас</p> <!-- Можно улучшить: тут больше подойдет параграф -->
                     <p class="khan__quote-author-subline">Кинорежиссёр, продюссер</p>
                     <div class="khan__book-container">
-                        <img class="khan__book-pic" alt="book" src="/images/images_sprint-2/book.jpg"> <!-- Нужно исправить: тут больше подойдет img (не забудьте добавить alt)-->
+                        <img class="khan__book-pic" alt="book" src="./images/images_sprint-2/book.jpg"> <!-- Нужно исправить: тут больше подойдет img (не забудьте добавить alt)-->
                         <a class="khan__buy-link" href="#">Купить книгу &#8594;</a>
                     </div>
                 </div>
@@ -205,17 +205,17 @@
                         <p class="table__text table__text_white">Уделяйте внимание количеству и скорости.</p>
                     </div>
                 </div>
-                <img src="/images/triangle.svg" alt="triangle" class="kaufman__triangle">
+                <img src="./images/triangle.svg" alt="triangle" class="kaufman__triangle">
             </section>
 
             <section class="resources">
                 <h2 class="section-title section-title_black">Полезные ресурсы</h2>
                 <h3 class="section-subtitle section-subtitle_black">Больше материалов о техниках и лайфхаках обучения</h3>
                 <div class="resources__logo-zone">
-                    <a href="#"><img class="resources__logo" src="/images/images_sprint-2/logo/arzamas.svg"></a><!-- Нужно исправить: img не требует закрывающего тега -->
-                    <a href="#"><img class="resources__logo" src="/images/images_sprint-2/logo/n1.svg"></a>
-                    <a href="#"><img class="resources__logo" src="/images/images_sprint-2/logo/polka.svg"></a>
-                    <a href="#"><img class="resources__logo" src="/images/images_sprint-2/logo/strelka.svg"></a>
+                    <a href="#"><img class="resources__logo" src="./images/images_sprint-2/logo/arzamas.svg"></a><!-- Нужно исправить: img не требует закрывающего тега -->
+                    <a href="#"><img class="resources__logo" src="./images/images_sprint-2/logo/n1.svg"></a>
+                    <a href="#"><img class="resources__logo" src="./images/images_sprint-2/logo/polka.svg"></a>
+                    <a href="#"><img class="resources__logo" src="./images/images_sprint-2/logo/strelka.svg"></a>
                 </div>
             </section>
 
@@ -255,7 +255,7 @@
 
 <!--
     Пути до стилей исправил, просто использую сейчас live server и с ним работало в формате /folder/img.img, а локально не запускалось.
-    Сделал в html всем путям /folder/**.* а в CSS ./folder/**.*, работает теперь и локально и через сервер (незнаю правильно ли).
+    Сделал в html всем путям ./folder/**.* а в CSS ../folder/**.*, работает теперь и локально и через сервер (незнаю правильно ли).
     Спасибо.
 -->
 
